@@ -1,6 +1,9 @@
-peso = float(input("Qual seu peso(kg)?"))
-altura = float(input("Qual sua altura(m)?"))
+# Meu-primeiro-exercicio-em-python
 
-imc = peso / (altura * altura)
+distancia = float(input("Digite a distância da viagem (em km):"))
+consumo = float(input("Digite o consumo do carro (km/1):"))
+preco = float(input("Digite o preço do cmobustível (R$/l)"))
 
-print(f"seu IMC é {imc:.2f}")
+custo = (distancia / consumo) * preco
+
+print("custo total da viagem: R$ , custo")
